@@ -7,7 +7,7 @@ from unet3d.data_test import write_data_to_file, open_data_file
 from unet3d.prediction import run_validation_cases
 from unet3d.utils.utils import pickle_dump, pickle_load
 
-from config import config
+from config_test import config
     
 def fetch_testing_data_files(return_subject_ids=False):
     testing_data_files = list()
