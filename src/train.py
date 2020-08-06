@@ -6,7 +6,7 @@ from unet3d.generator import get_training_and_validation_generators
 from unet3d.model import isensee2017_model
 from unet3d.training import load_old_model, train_model
 
-from config import config
+from config_train import config
 
 def fetch_training_data_files(return_subject_ids=False):
     training_data_files = list()
