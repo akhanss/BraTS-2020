@@ -43,6 +43,8 @@ If you face any problem, please feel free to open an issue.
 - Other packages: pytables, SimpleITK, nilearn, nibabel
 - Optional package: nipype (For n4itk bias correction preprocessing only. However, I didn't achieve that much performance gain using this technique!)
 
+* Note for installing 'pytables': install it using conda ('conda install pytables'). Installing using pip ('pip install tables') raises 'memory dump' issue!
+
 ## How to run
 If you prepare directory structure properly, you are done!
 
